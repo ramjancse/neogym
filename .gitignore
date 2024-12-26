@@ -1,0 +1,39 @@
+# Ignore everything except the theme folder
+/*
+!.gitignore
+!wp-content/
+wp-content/*
+!wp-content/themes/
+wp-content/themes/*
+!wp-content/themes/your-theme-name/
+
+# Ignore WordPress core files
+wp-admin/
+wp-includes/
+
+# Ignore sensitive files
+.htaccess
+wp-config.php
+error_log
+
+# Ignore plugin files
+wp-content/plugins/
+
+# Ignore uploads and other dynamic content
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+
+# Ignore system and editor files
+*.log
+*.sql
+*.sh
+*.DS_Store
+*.swp
+*.bak
+*.orig
+*.tmp
+*.idea/
+*.vscode/
+node_modules/
+vendor/
