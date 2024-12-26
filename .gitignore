@@ -5,7 +5,7 @@
 wp-content/*
 !wp-content/themes/
 wp-content/themes/*
-!wp-content/themes/your-theme-name/
+!wp-content/themes/corporate/
 
 # Ignore WordPress core files
 wp-admin/
